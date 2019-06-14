@@ -26,7 +26,7 @@ public class TopDownPD {
 
 	public static void main(String[] args) {
 
-		int numero = 32000;
+		int numero = 31299;
 		tabela = new int[numero];
 
 		long startTime = System.currentTimeMillis();
