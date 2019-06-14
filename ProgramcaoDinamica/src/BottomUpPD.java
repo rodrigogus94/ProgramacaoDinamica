@@ -23,15 +23,15 @@ public class BottomUpPD {
 
 		int numero = 500000;
 
-		long startTime = System.currentTimeMillis();
+		double startTime = System.currentTimeMillis();
 		for (int i = 2; i < numero; i++) {
 			System.out.print("(" + i + "):" + BottomUpPD.fiboPD(i) + "\n");
 		}
 
-		long lastTime = System.currentTimeMillis();
+		double lastTime = System.currentTimeMillis();
 		System.out.println("Tempo total em milessegundos: " + (lastTime - startTime));
 		System.out.println("Tempo total em segundos: " + (lastTime - startTime) / 1000);
-		System.out.println("Tempo total em munitos: " + ((lastTime - startTime) *60)/3600);
+		System.out.println("Tempo total em munitos: " + (((lastTime - startTime) *60)/3600)/1000);
 
 	}
 }

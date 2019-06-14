@@ -11,13 +11,13 @@ public class Fibonacci {
 	}
 	
 	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
+		double startTime = System.currentTimeMillis();
 		int numero =100;
 		for (int i = 0; i < numero; i++) {
             System.out.print("(" + i + "):" + Fibonacci.fib(i) + "\n");
         }
 		
-		long lastTime= System.currentTimeMillis();
+		double lastTime= System.currentTimeMillis();
 		System.out.println("Tempo total em milessegundos: " + (lastTime - startTime)); 
 	    System.out.println("Tempo total em segundos: " + (lastTime - startTime)/1000); 
 	}

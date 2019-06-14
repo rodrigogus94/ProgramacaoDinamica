@@ -29,12 +29,12 @@ public class TopDownPD {
 		int numero = 31299;
 		tabela = new int[numero];
 
-		long startTime = System.currentTimeMillis();
+		double startTime = System.currentTimeMillis();
 		for (int i = 0; i < numero; i++) {
 			System.out.print("(" + i + "):" + TopDownPD.fib(i) + "\n");
 		}
 
-		long lastTime = System.currentTimeMillis();
+		double lastTime = System.currentTimeMillis();
 		System.out.println("Tempo total em milessegundos: " + (lastTime - startTime));
 		System.out.println("Tempo total em segundos: " + (lastTime - startTime) / 1000);
 	
